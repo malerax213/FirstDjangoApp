@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from isobres.views import mainpage
 
 urlpatterns = [
+    url(r'^$', mainpage),
     url(r'^admin/', admin.site.urls),
 ]
