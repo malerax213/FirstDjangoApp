@@ -1,4 +1,6 @@
 # FirstDjangoApp
-Primera aplicació creada amb Django.
+First APP created with Django.
 
-Tema: Sobres
+Topic: Bribes.
+
+Entities: Politicians - Parties - Companies - Favour
