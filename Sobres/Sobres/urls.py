@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from isobres.views import mainpage
+from isobres.views import dashboard, mainpage
 
 urlpatterns = [
+    url(r'^profile/(\w+)/$', dashboard), # Expressio regular-->Qualsevol lletra que conformi una paraula sense linies
     url(r'^$', mainpage),
     url(r'^admin/', admin.site.urls),
 ]
